@@ -3,7 +3,7 @@
 	font-weight: 500;
 	padding-bottom: 15px;
 	padding-top: 15px;
-	background-color: black;
+	background-color: #5271ff;
 	width: 100%;
 	overflow: hidden;
 	position: fixed;
@@ -15,10 +15,13 @@
 	padding: 0;
 	border: 0;
 	outline: 0;
-	background-color: transparent;
 	position: absolute;
 	width: 50%;
 	vertical-align: baseline;
+}
+#logo-img {
+	height: 50px;
+	transition: all .3s ease-in-out;
 }
 #navigation-container {
 	margin: 0;
@@ -26,7 +29,6 @@
 	border: 0;
 	outline: 0;
 	vertical-align: baseline;
-	background: transparent;
 	float: right;
 }
 #background-image {
@@ -78,7 +80,7 @@ p {
   margin: 0;
   padding: 0;
   overflow-y: hidden;
-  background-color: #000000;
+  background-color: transparent;
 }
 .nav-li {
 	float: left;
@@ -112,7 +114,7 @@ p {
 	flex-flow: row wrap;
 	padding: 30px 30px 20px 30px;
 	color: #ffffff;
-	background-color: #000000;
+	background-color: #5271FF;
 	border-top: 1px solid #e5e5e5;
   }
   
@@ -143,7 +145,7 @@ p {
   
   .footer address {
 	font-style: normal;
-	color: #999;
+	color: #FFFFFF;
   }
   
   .footer__btn {
@@ -185,7 +187,7 @@ p {
   }
   
   .nav__ul a {
-	color: #999;
+	color: #FFFFFF;
   }
   
   @media screen and (min-width: 40.375em) {
