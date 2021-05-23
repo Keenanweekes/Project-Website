@@ -22,21 +22,8 @@
 			</div>
 		</header>
 		<div id="main-container">
-			<div class="text-container">
-				<div style="padding-top: 70px;"></div>
-				<h2 id="design">Design Methodology</h2>
-				<p>
-					This project team is utilising the Kanban Agile Project Methodology to track work items in each iteration of the project.  
-					The Kanban Methodology is very flexible and will allow the group to focus on designing and developing the product, 
-					rather than dealing extensively with task management and tracking.  
-
-					The project team has created a Trello Kanban Board to manage work items. Work items will be categoriesed into Frontend, Backend and Database
-					tasks and allocated accordingly to each group member in line with their responsibilites.  Each group member is responsible for keeping their work items
-					on the Trello Board up to date so there is transparency into the progress and status of all work items.
-
-				</p>
+			<div style="padding-top: 70px;">
 			</div>
-			<hr>
 			<div class="text-container">
 				<h2 id="users">CRM Users</h2>
 				<p>During the research and analysis phase of this project, three system users were identified:</p>
@@ -85,9 +72,8 @@
 			<hr>
 			<div class="text-container">
 				<h2 id="environment">Development Environment</h2>
-				<p>Industry standard development environments will be used by the project team during the development of the CRM.  Continuous Integration practices will be 
-					implemented through the use of a shared GitHub Repository in which all project team members will be required to make regular code commits to.
-					This will help to maintain an up-to-date code base and allow all project members to contribute to the development of the project simultaneously.
+				<p>Modern serverless web technologies were used by the project team during the development of the CRM.  Continuous Integration practices were 
+					implemented through the use of a shared GitHub Repository and integration with AWS Amplify which built and deployed the code repository on work commit to the main repository.
 				</p>
 			
 				<h4 id="frameworks">Development Frameworks</h4>
@@ -98,11 +84,10 @@
 						<th>Details</th>
 					</tr>
 					<tr>
-						<td><img src="./resources/bootstrap.png" height=100 width=100></img></td>
-						<td>Bootstrap
+						<td><img src="./resources/material-ui.png" height=100 width=100></img></td>
+						<td>Material UI
 						</td>
-						<td>Bootstrap has been selected as the UI Framework as it is the most popular HTML, CSS and JavaScript component library.
-							Bootstrap will allow for the development of a fast and responsive web application.</td>
+						<td>Popular React UI Framework consisting of prebuilt components which allow the fast development of web applications.</td>
 					</tr>
 					<tr>
 						<td><img src="./resources/react.png" height=100 width=100></img></td>
@@ -111,76 +96,37 @@
 							based structure that allows for component reuse making the frontend code base easier to maintain as it grows.</td>
 					</tr>
 					<tr>
-						<td><img src="./resources/python.png" height=100 width=100></img></td>
-						<td>Backend Framework</td>
-						<td>Python will be used to develop the AWS Lambda functions to allow the AWS API Gateway to interact with the database and return
-							the requested information to the Frontend.
+						<td><img src="./resources/amplify.png" height=100 width=100></img></td>
+						<td>AWS Amplify</td>
+						<td>A pre-configured AWS platform consisting of many of AWS's popular microservices.  Amplify allowed the project to be developed in line with CICD principles.
 						</td>
 					</tr>
 					<tr>
-						<td><img src="./resources/mysql.png" height=100 width=100></img></td>
-						<td>Database Framework</td>
-						<td>MySQL a Relational Database Framework has been selected to support the persistent data storage requirements of the project. </td>
+						<td><img src="./resources/gateway.png" height=100 width=100></img></td>
+						<td>AWS API Gateway</td>
+						<td>RESTful API which allowed the frontend of the web application to communicate with AWS backend microservices. </td>
+					</tr>
+					<tr>
+						<td><img src="./resources/lambda.png" height=100 width=100></img></td>
+						<td>AWS Lambda</td>
+						<td>AWS event driven serverless computing platform, responsible for processing events received on the API Gateway and communicating with the DynamoDB. </td>
+					</tr>
+					<tr>
+						<td><img src="./resources/dynamo.png" height=100 width=100></img></td>
+						<td>AWS DynamoDB</td>
+						<td>NoSQL data responsible for the persistent data storage requirements of the project. </td>
 					</tr>
 				</table>
 			</div>
 			<hr>
 			<div class="text-container">
-				<h2 id="milestones">Project Milestones</h2>
-				<p>Project development has been split into a number of key milestones and iterations in line the the agile methodology adopted by the project team.  An outline of project work due for completion is in the table below: </p>
-				<table>
-					<tr>
-						<th>Date</th>
-						<th>Week</th>
-						<th>Milestone</th>
-						<th>Description</th>
-					</tr>
-					<tr>
-						<td>19th January</td>
-						<td>University break</td>
-						<td>Prototype 1</td>
-						<td>Develop and initiate Architecture setup with appropriate security controls within Australian data centre. Front-end infrastructure initiated and secured with initial design implementation. Showcase infrastructure. </td>
-					</tr>
-					<tr>
-						<td>19th February</td>
-						<td>University break</td>
-						<td>Prototype 2</td>
-						<td>Foundational development of database structure and encryption focus. Consistent integration across AWS Amplify and React. Showcase small functions. </td>
-					</tr>
-					<tr>
-						<td>19th March</td>
-						<td>Week 3 Autumn</td>
-						<td>Prototype 3</td>
-						<td>Core design functionality supported by backend applications developed and redesign functions showcased. </td>
-					</tr>
-					<tr>
-						<td>2nd April</td>
-						<td>Week 5 Autumn</td>
-						<td>Prototype 4</td>
-						<td>Front-end design pages completed and requiring completion of connectivity of functions. Back-end continued refinement and processes enabled.  </td>
-					</tr>
-					<tr>
-						<td>16th April</td>
-						<td>Week 7 Autumn</td>
-						<td>Prototype 5</td>
-						<td>User groups created and integrated with multifactor authentication. Front-end finalisation and key functions configured and tested. Showcase advanced product functionality. </td>
-					</tr>
-					<tr>
-						<td>April/May</td>
-						<td>Multiple</td>
-						<td>Testing</td>
-						<td>Consistent integration and testing with cloud-based architecture. Testing of user groups to ensure all functionalities are applicable. </td>
-					</tr>
-					<tr>
-						<td>31st May</td>
-						<td>Week 13</td>
-						<td>Trade Show</td>
-						<td>Trade show and final delivery of product to the client</td>
-					</tr>
-				</table>
-				<br>
+				<h2 id="design">Development Methodology</h2>
+				<p>
+					The project was developed utilising a Kanban Agile Project Methodology to track work items in each iteration of the project.  
+					The Kanban Methodology is provided the flexibility to allow the group to focus on designing and developing the product, 
+					rather than dealing extensively with task management and tracking.  
+				</p>
 			</div>
-		</div>
 	</body>
 	<footer class="footer">
 		<div class="footer__addr">
